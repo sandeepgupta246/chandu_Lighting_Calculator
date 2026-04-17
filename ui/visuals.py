@@ -28,9 +28,9 @@ def plot_isolux_contour(x_points, y_points, lux_grid, target_lux):
         contours=dict(
             start=target_lux,
             end=target_lux,
-            size=1,
-            color='red',
+            size=1
         ),
+        line=dict(color='red', width=2),
         hoverinfo='skip'
     ))
 
